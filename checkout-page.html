@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Style/checkout-pag.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <script src="Script/cart-page.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <nav class="sticky-top navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid mx-5">
+          <a class="navbar-brand ms-5 fw-bold" href="#">COLO<span class="shop">SHOP</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item ms-3">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link" href="shopnow.html">Shop</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link " href="#">About</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+
+            <form class="d-flex m " role="search">
+              <input class="form-control formsearch mx-4" type="search" placeholder="Search" aria-label="Search">
+            </form>
+
+            <i class="fa-solid fa-cart-shopping mx-5 cart"></i>
+
+          </div>
+
+        </div>
+    </nav>
+    
+    <div class="main">
+
+        <h4>Checkout</h4>
+        <h6>Billing Information</h6>
+
+        <form action="">
+                    <!-- Billing Information -->
+            <div class="lab">
+                <label for="firstname">Name:</label><br />
+                <input type="text" class="input" required />
+            </div>
+
+            <div class="lab">
+                <label for="email">Email:</label><br />
+                <input type="email" id="email" class="input" required />
+            </div>
+
+            <div class="lab">
+                <label for="billing-address">Address:</label><br />
+                <input type="text" id="billing-address" class="input" required />
+            </div>
+
+            <div class="lab">
+                <label for="billing-phone">Phone Number:</label><br />
+                <input type="tel" id="billing-phone" class="input" required />
+            </div>
+                          
+        </form>
+
+                         <!-- Payment Information -->
+
+        <section class="payment-info">
+            <h6>Payment Information</h6>
+            <form class="">
+                <div class="lab">
+                    <label for="card-number">Card Number:</label><br>
+                    <input type="text" id="card-number" class="input" required>
+                </div>
+
+                <div class="lab">
+                    <label for="card-expiration">Expiration Date:</label><br>
+                    <input type="month" id="card-expiration" class="input" required>
+                </div>
+
+                <div class="lab">
+                    <label for="card-cvv">CVV:</label><br>
+                    <input type="text" id="card-cvv" class="input" required>
+                </div>
+
+            </form>
+        </section>
+
+
+                        <!-- Order Summary -->
+        <section class="order-summary">
+            <h6>Order Summary</h6>
+            <div class="summary-items">
+            <!-- Summary items will be displayed here -->
+            </div>
+            <p>Total: <span class="summary-total">$0.00</span></p>
+
+            <button class=" place-order-btn">Place Order</button>
+        </section>
+
+        <!-- <button class="place-order-btn">Place Order</button> -->
+
+    </div>
+    
+</body>
+</html>

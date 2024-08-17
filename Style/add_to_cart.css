@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+span {
+    color: #ff9fa6;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cart-container {
+    background-color: #b7b6b6;
+    width: 70%
+}
+
+.cart-info{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    border: none;
+    outline: none;
+    font-size: 10px;
+    padding: 0 5px;
+    font-weight: bolder;
+}
+
+.cart1{
+    
+    padding: 20px 20px 20px 20px ;
+}
+
+.cart1-sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 20px 0px;
+    box-shadow: 0px 0px 2px 1px rgb(252, 252, 213);
+    border-radius:5px;
+}
+
+/* .removebtn {
+
+} */
+
+.summary{
+    font-size: 14px;
+}
+
+.Subtotal{
+    font-size: 13px;
+}
+
+.cart-summary{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border: 6px solid black;
+    box-shadow: 0px 0px 2px 1px rgb(252, 252, 213);
+    border: none;
+    outline: none;
+}
+
+.subtotal-summary{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+
+}
+
+.button_now:hover {
+    background-color: rgba(170, 205, 165, 0.637);
+    color: black;
+    box-shadow: 0px 0px 0px 2px rgba(7, 78, 38, 0.637);
+
+}
+
+.button_now {
+    background-color: #e04c4c;
+    color: white;
+    padding: 9px 15px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: inset 0px 0px 0px 2px rgb(240, 243, 241);
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+
+.add, .remove{
+    width: 50px;
+}
+
+.checkout{
+    width: 200px;
+    border-radius: 5px;
+  }

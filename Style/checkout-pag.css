@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+span {
+    color: #ff9fa6;
+}
+
+.main {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 50%;
+    background-color: #b2c0b2;
+  }
+
+  h4 {
+    padding-top: 30px;
+  }
+
+h6, h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+form {
+    padding: 30px;
+    font-size: 15px;
+}
+
+.lab {
+    margin-bottom: 15px;
+}
+  
+.input {
+    width: 250px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 8px;
+    outline: none;
+    box-shadow: 0 0 2px 0 grey;
+}
+
+.order-summary {
+    padding: 30px;
+    font-size: 15px;
+}
+
+.summary-total {
+    color: black;
+    font-weight: bold;
+}
+
+.place-order-btn {
+    border: none;
+    width: 130px;
+    height: fit-content;
+    background-color: #8cb58e;
+    margin-top: 60px;
+    margin-right: 0px;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    margin-left: 40%;
+    cursor: pointer
+}
+
+.place-order-btn:hover {
+    background-color: #96cf96;
+}
+
+
+/* 
+
+.summary-items {
+    margin-bottom: 20px;
+}
+
+.summary-items p {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ */ 
